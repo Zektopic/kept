@@ -29,3 +29,5 @@ overrides:
   'undici@>=8.0.0 <8.12.2': ^8.12.2
   # @serwist/build and @serwist/vite pin zod exactly (4.4.3; still 4.6.5 in 9.5.13, their latest).
   'zod@>=4.0.0 <4.6.6': ^4.6.6
+  'glob@<14.0.2': 14.0.6
+  'minimatch@<11.0.1': 11.0.8
